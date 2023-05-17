@@ -151,7 +151,7 @@ header::before{
 }
 .menu-links{
   position: absolute;
-  top: calc(50% - 2rem);
+  top: calc(22rem + 2rem);
   left:-100%;
   transform: translate(-50%,-50%);
   width: clamp(30rem,90%,100%);
@@ -161,7 +161,7 @@ header::before{
   gap: clamp(3rem,3.5vw,4rem);
   transition: left 800ms;
   z-index: 3;
-  padding: clamp(4rem,4.5vw,5rem) 0;
+  padding: clamp(3rem,3.5vw,4rem) 0;
 }
 .show{
   left: 50%;
