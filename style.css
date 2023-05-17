@@ -316,7 +316,7 @@ main img{
 
 /* footer */
 footer{
-  background-color: hsl(168, 34%, 61%);
+  background-color: hsl(168, 34%,65%);
   gap: clamp(5rem,5.5vw,6rem);
   justify-content: center;
   padding: clamp(6rem,7vw,8rem) clamp(2.5rem,3.5vw,4rem);
