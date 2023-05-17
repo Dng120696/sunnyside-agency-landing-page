@@ -200,7 +200,11 @@ header::before{
   border-radius: 5rem;
   color: var(--Very-dark-desaturated-blue);
 }
+.menu-links .btn:hover{
+  color: var(--White);
+  cursor: pointer;
 
+}
 /* header section */
 
 .header-title{
@@ -306,7 +310,7 @@ main img{
 
 /* footer */
 footer{
-  background-color: hsl(168, 34%, 71%);
+  background-color: var(--Dark-moderate-cyan);
   gap: clamp(5rem,5.5vw,6rem);
   justify-content: center;
   padding: clamp(6rem,7vw,8rem) clamp(2.5rem,3.5vw,4rem);
@@ -332,7 +336,7 @@ footer a{
   text-transform: initial;
   font-family: var(--ff-secondary);
   font-weight: 600;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .footer-icon{
   justify-content: center;
@@ -366,7 +370,7 @@ footer ul li a::after{
     display: grid;
   }
   header{
-    min-height: 75vh;
+    min-height: 90vh;
   }
   header::before{
     top: 50%;
@@ -421,12 +425,6 @@ footer ul li a::after{
   article.sec-3-content-right {
     background: url(./images/desktop/image-photography.jpg)no-repeat center top/ cover;
 }
-  
-  
-
-
-
-
   .sec-5 .desktop-grid{
     grid-template-columns: repeat(4,1fr);
   }
